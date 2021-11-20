@@ -9,7 +9,7 @@ enum PreciousSort {
 public class PreciousStone extends Stone{
     private PreciousSort sort;
 
-    PreciousStone(PreciousSort sort, int carats, int price, int transparency) {
+    PreciousStone(PreciousSort sort, int carats, double price, int transparency) {
         super(carats, price, transparency);
         this.name = "";
         this.sort = sort;

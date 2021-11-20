@@ -20,7 +20,7 @@ public class FinishedNecklace {
         System.out.println("------------------------------------------------------------------------------------");
         ArrayList<Stone> getStoneTransparency = necklace.stoneTransparency(80, 90);
         for (Stone stone : getStoneTransparency)
-            System.out.println("Прозрачности от 80 до 90 - "+stone.toString());
+            System.out.println("Прозрачность от 80 до 90 - "+stone.toString());
 
     }
 
@@ -86,7 +86,7 @@ public class FinishedNecklace {
 
         public String toString() {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("Вставленые камни: \n");
+            stringBuilder.append("Вставленные камни: \n");
             for (Stone stone : stones) {
                 String sStone = stone.toString();
                 stringBuilder.append(sStone);
